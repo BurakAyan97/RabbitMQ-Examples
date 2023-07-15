@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdemyRabbitMQ.publisher", "UdemyRabbitMQ.publisher\UdemyRabbitMQ.publisher.csproj", "{8ED8B21A-A6C4-474E-9D41-282A7662F166}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UdemyRabbitMQ.publisher", "UdemyRabbitMQ.publisher\UdemyRabbitMQ.publisher.csproj", "{8ED8B21A-A6C4-474E-9D41-282A7662F166}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdemyRabbitMQ.subscriber", "UdemyRabbitMQ.subscriber\UdemyRabbitMQ.subscriber.csproj", "{F8BE12AC-CD6A-4541-9D31-0A12BABE414E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UdemyRabbitMQ.subscriber", "UdemyRabbitMQ.subscriber\UdemyRabbitMQ.subscriber.csproj", "{F8BE12AC-CD6A-4541-9D31-0A12BABE414E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example_1", "Example_1", "{E7373077-8DA6-4BE3-A301-34A6112DBD18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdemyRabbitMQWeb.Watermark", "UdemyRabbitMQWeb.Watermark\UdemyRabbitMQWeb.Watermark.csproj", "{2A4B15C2-7E09-445C-A6BE-7B3335AA432D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +25,16 @@ Global
 		{F8BE12AC-CD6A-4541-9D31-0A12BABE414E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8BE12AC-CD6A-4541-9D31-0A12BABE414E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8BE12AC-CD6A-4541-9D31-0A12BABE414E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A4B15C2-7E09-445C-A6BE-7B3335AA432D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A4B15C2-7E09-445C-A6BE-7B3335AA432D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A4B15C2-7E09-445C-A6BE-7B3335AA432D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A4B15C2-7E09-445C-A6BE-7B3335AA432D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2A4B15C2-7E09-445C-A6BE-7B3335AA432D} = {E7373077-8DA6-4BE3-A301-34A6112DBD18}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {849ADD52-EEEE-4B93-8B4B-82AC4D0E001B}
