@@ -10,6 +10,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using UdemyRabbitMQWeb.Watermark.BackgroundServices;
 using UdemyRabbitMQWeb.Watermark.Models;
 using UdemyRabbitMQWeb.Watermark.Services;
 
@@ -30,13 +31,14 @@ namespace UdemyRabbitMQWeb.Watermark
             services.AddSingleton<RabbitMQClientService>();
             services.AddSingleton<RabbitMQPublisher>();
             services.AddSingleton(sp =>
-            new ConnectionFactory() { Uri = new Uri(Configuration.GetConnectionString("RabbitMQ")) });
+            new ConnectionFactory() { Uri = new Uri(Configuration.GetConnectionString("RabbitMQ")), DispatchConsumersAsync = true });//async kullanınca haberdar etmeliyiz.
 
             services.AddDbContext<AppDbContext>(options =>
             {
                 options.UseInMemoryDatabase("productDb");
             });
 
+            services.AddHostedService<ImageWatermarkProcessBackgroundServices>();
             services.AddControllersWithViews();
         }
 
