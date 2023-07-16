@@ -9,6 +9,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UdemyRabbitMQ.subscriber", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UdemyRabbitMQWeb.Watermark", "UdemyRabbitMQWeb.Watermark\UdemyRabbitMQWeb.Watermark.csproj", "{2A4B15C2-7E09-445C-A6BE-7B3335AA432D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdemyRabbitMQWeb.ExcelCreate", "UdemyRabbitMQWeb.ExcelCreate\UdemyRabbitMQWeb.ExcelCreate.csproj", "{9A80C083-D4E8-4051-B259-F081412A3BFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{4EA14D60-9124-4241-B2E8-4423EC4FA5C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileCreateWorkerService", "FileCreateWorkerService\FileCreateWorkerService.csproj", "{687DA1AA-5FAF-4388-A0F7-F54E7B191117}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +33,18 @@ Global
 		{2A4B15C2-7E09-445C-A6BE-7B3335AA432D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A4B15C2-7E09-445C-A6BE-7B3335AA432D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A4B15C2-7E09-445C-A6BE-7B3335AA432D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A80C083-D4E8-4051-B259-F081412A3BFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A80C083-D4E8-4051-B259-F081412A3BFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A80C083-D4E8-4051-B259-F081412A3BFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A80C083-D4E8-4051-B259-F081412A3BFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EA14D60-9124-4241-B2E8-4423EC4FA5C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EA14D60-9124-4241-B2E8-4423EC4FA5C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EA14D60-9124-4241-B2E8-4423EC4FA5C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EA14D60-9124-4241-B2E8-4423EC4FA5C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{687DA1AA-5FAF-4388-A0F7-F54E7B191117}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{687DA1AA-5FAF-4388-A0F7-F54E7B191117}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{687DA1AA-5FAF-4388-A0F7-F54E7B191117}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{687DA1AA-5FAF-4388-A0F7-F54E7B191117}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
