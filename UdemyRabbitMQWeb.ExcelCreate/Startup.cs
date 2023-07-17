@@ -71,7 +71,7 @@ namespace UdemRabbitMQWeb.ExcelCreate
             app.UseEndpoints(endpoints =>
             {
 
-                //endpoints.MapHub<MyHub>("/MyHub");
+                endpoints.MapHub<MyHub>("/MyHub");
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
